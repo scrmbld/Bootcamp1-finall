@@ -43,4 +43,9 @@ body{
     width:100%;
     height:100vh;
 }
+.aboutLogo{
+    width:20%;
+    height:40%;
+    margin-top:5%;
+}
 /**end description styles**/
