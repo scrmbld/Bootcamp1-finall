@@ -9,7 +9,7 @@ body{
     border-bottom:2px solid black;
     width:100%;
     position:fixed;
-    height:10vh;
+    height:7vh;
     z-index:2;
 }
 .navLogo{
@@ -58,13 +58,25 @@ body{
 /**end sidebar styles**/
 /**start description styles**/
 .mainAbout{
-    width:100%;
+    width:76%;
     height:100vh;
     margin-left:23%;
+    padding-top:5%
 }
+
 .aboutLogo{
-    width:15%;
-    height:30%;
-    margin-top:5%;
+    width:23%;
+    height:35%;
+    margin-top:2%;
+    float:left;
+}
+.aboutHeader{
+    float:right;
+    margin-right:55%;
+    margin-top:10%;
+}
+.aboutText{
+   float:right; 
+   margin-right:10%;
 }
 /**end description styles**/
