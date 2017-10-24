@@ -55,13 +55,14 @@ body{
     font-size:125%;
 }
 /**end sidebar styles**/
-/**start about styles**/
-.mainDescription{
-    height:93vh;
-    padding-top:7vh;
+/**start contact styles**/
+.mainContact{
     padding-left:20%;
+    height:100vh;
+    padding-top:7vh;
 }
-.descriptionHeader{
-    margin-left:35%;
+.contactMainHeader{
+    margin-left:25%;
+    margin-top:4vh;
 }
-/**end about styles**/
+/**end contact styles**/
