@@ -67,6 +67,7 @@ body{
 .coverLink{
     color:#000;
     text-decoration:none;
+    color:rgb(255,127,39);
 }
 .coverLink:hover{
     color:rgb(255,127,39);
