@@ -35,7 +35,6 @@ body{
     color:#777;
     text-decoration:underline;
     font-size:115%;
-    margin:0px;
 }
 /**end navbar styles**/
 /**start sidebar styles**/
@@ -55,36 +54,15 @@ body{
     margin-top:50%;
     font-size:125%;
 }
-.sidebarLink{
-    color:#000;
-    text-decoration:none;
-    font-size:120%;
-}
 /**end sidebar styles**/
-/**start description styles**/
-.mainAbout{
-    width:76%;
+/**start contact styles**/
+.mainContact{
+    padding-left:20%;
     height:100vh;
-    margin-left:23%;
-    padding-top:5%
+    padding-top:7vh;
 }
-
-.aboutLogo{
-    width:23%;
-    height:35%;
-    margin-top:2%;
-    float:left;
+.contactMainHeader{
+    margin-left:25%;
+    margin-top:4vh;
 }
-img.tallAboutLogo{
-    width:15%;
-}
-.aboutHeader{
-    float:right;
-    margin-right:55%;
-    margin-top:10%;
-}
-.aboutText{
-   float:right; 
-   margin-right:10%;
-}
-/**end description styles**/
+/**end contact styles**/

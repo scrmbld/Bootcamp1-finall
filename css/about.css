@@ -42,7 +42,7 @@ body{
     height:100vh;
     border:1px solid black;
     position:fixed;
-    width:20%;
+    width:19.8%;
     background-color:#888;
     z-index:1;
 }
@@ -51,66 +51,25 @@ body{
     list-style:none;
 }
 .sidebarItem{
-    margin-top:30%;
+    margin-top:50%;
     font-size:125%;
 }
-.sidebarLink{
-    color:#000;
-    text-decoration:none;
-    font-size:120%;
-}
 /**end sidebar styles**/
-/**start super bio styles**/
-.superBioContainer{
-    width:100%;
-    height:90vh;
+/**start about styles**/
+.mainDescription{
+    height:93vh;
     padding-top:7vh;
+    padding-left:20%;
 }
-.superBio{
-    border:1px solid #000;
-    width:79.9%;
-    height:21vh;
-    margin-left:20%;
-    border-right:none;
+.descriptionHeader{
+    margin-left:35%;
 }
-.superBioIcon{
-    width:13%;
-    height:85%;
-    margin-left:3%;
-    display:inline-block;
-    margin-top:1%;
-}
-.tallBioIcon{
-    width:7%;
-    margin-left:5%;
-}
-.bioTextContainer{
-    float:right;
-    width:80%;
-    height:100%;
-}
-.superBioHeader{
-    margin-left:30%;
-    margin-bottom:0%;
-    display:inline-block;
-    margin-top:0%;
-    float:left;
-    margin-left:20%;
-    margin-top:1%;
-}
-.superBioLink{
+.coverLink{
     color:#000;
     text-decoration:none;
 }
-.superBioLink:hover{
+.coverLink:hover{
     color:rgb(255,127,39);
     text-decoration:underline;
 }
-.superBioText{
-    margin-right:30%;
-    margin-top:0%;
-    display:inline-block;
-    float:left;
-    margin-top:1%;
-}
-/**end super bio styles**/
+/**end about styles**/
