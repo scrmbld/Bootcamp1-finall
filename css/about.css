@@ -64,4 +64,12 @@ body{
 .descriptionHeader{
     margin-left:35%;
 }
+.coverLink{
+    color:#000;
+    text-decoration:none;
+}
+.coverLink:hover{
+    color:rgb(255,127,39);
+    text-decoration:underline;
+}
 /**end about styles**/
