@@ -75,6 +75,9 @@ body{
     margin-top:2%;
     float:left;
 }
+img.tallAboutLogo{
+    width:15%;
+}
 .aboutHeader{
     float:right;
     margin-right:55%;
