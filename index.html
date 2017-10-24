@@ -20,16 +20,18 @@
     </nav>
     <!--end navbar section-->
     <!--start sidebar section-->
+    <div id="heroes">
     <section class="sidebarMain">
         <ul class="sidebarList">
             <li class="sidebarItem"><a class="sidebarLink" href="#heroes">heroes</a></li>
-            <li class="sidebarItem"><a class="sidebarLink">about</a></a></li>
+            <li class="sidebarItem"><a class="sidebarLink" href="#villians">villians</a></a></li>
             <li class="sidebarItem"><a class="sidebarLink">contact</a></li>
         </ul>
     </section>
     <!--end sidebar secition-->
     <!--begin literal hero section-->
     <section class="superBioContainer">
+        <div id="heroes"></div>
         <div class="superBio">
             <img class="superBioIcon" src="images/matter-eaterLad.jpg" alt="matter-eater lad">
             <div class="bioTextContainer">
@@ -41,15 +43,31 @@
             <div id="heroes"></div>
             <img class="superBioIcon tallBioIcon"src="images/stoneBoy.jpg"alt="Stone Boy">
             <div class="bioTextContainer">
-                <h1 class="superBioHeader">Stone Boy</h1>
-                <p class="superBioText">Stone boy can turn himself into an inanimate stone statue</p>
+                <h1 class="superBioHeader"><a class="superBioLink"href="superDescriptions/stoneBoy.html">Stone Boy</a></h1>
+                <p class="superBioText">Stone boy can turn himself into an inanimate stone statue.</p>
             </div>
         </div>
         <div class="superBio">
             <img class="superBioIcon"src="images/theElongatedMan.jpg"alt="The Elongated Man">
             <div class="bioTextContainer">
-                <h1 class="superBioHeader">The Elongated Man</h1>
+                <h1 class="superBioHeader"><a class="superBioLink" href="superDescriptions/theElongatedMan.html">The Elongated Man</a></h1>
                 <p class="superBioText">The Elongated Man is a superhero with the ability to stretch himself out and a terrible name.</p>
+            </div>
+        </div>
+        <div class="superBio">
+            <img class="superBioIcon" src="images/armFallOffBoy.jpg" alt="Arm Fall Off Boy">
+            <div class="bioTextContainer">
+                <h1 class="superBioHeader"><a class="superBioLink"href="superDescriptions/armFallOffBoy.html">Arm Fall Off Boy</a></h1>
+                <p class="superBioText">Arm Fall Off Boy can detatch his arms and then beat his enemies with said arm.</p>
+            </div>
+        </div>
+        <!--transition to villians-->
+        <div id="villians"></div>
+        <div class="superBio">
+            <img class="superBioIcon"src="images/KiteMan.jpg"alt="kite man">
+            <div class="bioTextContainer">
+                <h1 class="superBioHeader"><a class="superBioLink"href="superDescriptions/kiteMan.html">Kite Man</a></h1>
+                <p class="superBioText">Kiteman is a supervillian whose "power" (if you can even call it that) is kites.</p>
             </div>
         </div>
     </section>

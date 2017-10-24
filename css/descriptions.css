@@ -55,6 +55,11 @@ body{
     margin-top:50%;
     font-size:125%;
 }
+.sidebarLink{
+    color:#000;
+    text-decoration:none;
+    font-size:120%;
+}
 /**end sidebar styles**/
 /**start description styles**/
 .mainAbout{
